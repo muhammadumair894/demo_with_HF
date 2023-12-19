@@ -1,4 +1,5 @@
 import streamlit as st
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 import pandas as pd
 
 st.title('Question Answering')
